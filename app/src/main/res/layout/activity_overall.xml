@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.bawei.imitationofjingdong.Overall.OverallActivity">
+<com.hjm.bottomtabbar.BottomTabBar
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/overall_tab"
+    app:tab_bar_background="#ffffff"
+    app:tab_img_width="40dp"
+    app:tab_img_height="40dp"
+    app:tab_font_size="10dp"
+    app:tab_selected_color="#ff0000"
+    app:tab_unselected_color="#000000"></com.hjm.bottomtabbar.BottomTabBar>
+
+</RelativeLayout>
